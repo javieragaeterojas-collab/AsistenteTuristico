@@ -1,0 +1,8 @@
+streamlit==1.38.0
+pandas
+folium
+geopy
+reportlab
+requests
+pillow
+openai==0.28.1
