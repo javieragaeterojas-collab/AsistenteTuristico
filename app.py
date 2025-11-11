@@ -20,8 +20,8 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 # Clave temporal para pruebas locales
 if not api_key:
-api_key = "TU_API_KEY_DE_PRUEBA_AQUI"
-st.warning("⚠️ Usando API key temporal para pruebas. Para producción, configura la variable de entorno OPENAI_API_KEY.")
+    api_key = "TU_API_KEY_DE_PRUEBA_AQUI"
+    st.warning("⚠️ Usando API key temporal para pruebas. Para producción, configura la variable de entorno OPENAI_API_KEY.")
 
 openai.api_key = api_key
 openai_configured = True if api_key else False
