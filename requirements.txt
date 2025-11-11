@@ -1,8 +1,13 @@
-streamlit==1.38.0
+streamlit
 pandas
 folium
 geopy
 reportlab
-requests
+googletrans==4.0.0-rc1
+openai
+scipy
+streamlit-folium
+geopy
 pillow
-openai==0.28.1
+fpdf
+requests
